@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/reusable.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <meta name="yandex-verification" content="539c2cddbed37e13" />
+    <meta
+      name="description"
+      content="Discover the perfect tech treasures and unleash the ultimate gifts and gadgets. From affordable tech gifts for birthdays to unique Christmas tech presents, explore TopGadgetOnline today!"
+    />
+
+    <title>Santas gifts</title>
+  </head>
+
+ 
+    <header sticky>
+      <div class="flex">
+        <img src="css/img/santas gift logo.svg" class="logo" alt="logo Image" />
+      </div>
+      <!-- <h1>Gadgets & Gifts</h1> -->
+      <button class="menu-toggle hidden" onclick="toggleMenu()">Menu</button>
+      <nav>
+        <ul class="main-nav hidden">
+          <li><a href="#" onclick="toggleNav('home',event)">HOME</a></li>
+
+          <li>
+            <a href="#" onclick="toggleNav('Christmas',event)">CHRISTMAS</a>
+          </li>
+
+          <li><a href="#" onclick="toggleNav('games',event)">GAMES</a></li>
+
+          <li><a href="#" onclick="toggleNav('woman',event)">WOMAN</a></li>
+
+          <li><a href="#" onclick="toggleNav('man',event)">MAN</a></li>
+
+          <li><a href="#" onclick="toggleNav('blog',event)">BLOG</a></li>
+        </ul>
+      </nav>
+      <div id="home" class="expanded-nav hidden">
+        <img src="css/img/home.svg" alt="Home Image" />
+        <ul>
+          <li class="expand-nav-a"><a href="#">Home Decorating </a></li>
+          <li class="expand-nav-a"><a href="#">Home Office</a></li>
+          <li class="expand-nav-a"><a href="#">Household Cleaning </a></li>
+          <li class="expand-nav-a">
+            <a href="#">Kitchen & Entertaining </a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">Tools & Home Improvement </a>
+          </li>
+        </ul>
+      </div>
+      <div id="Christmas" class="expanded-nav hidden">
+        <img src="css/" alt="santa claus img" />
+        <ul>
+          <li class="expand-nav-a"><a href="#">Christmas Lights</a></li>
+          <li class="expand-nav-a">
+            <a href="#">Christmas Inflatables</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">Halloween Decorations</a>
+          </li>
+          <li class="expand-nav-a"><a href="#">Christmas Wreath</a></li>
+        </ul>
+        <!-- Add your products links here -->
+      </div>
+      <div id="games" class="expanded-nav hidden">
+        <img src="css/img/game changer.svg" alt="game changer img" />
+        <ul>
+          <li class="expand-nav-a"><a href="#">Christmas Lights</a></li>
+          <li class="expand-nav-a">
+            <a href="#">Christmas Inflatables</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">Halloween Decorations</a>
+          </li>
+          <li class="expand-nav-a"><a href="#">Christmas Wreath</a></li>
+        </ul>
+      </div>
+      <div id="man" class="expanded-nav hidden">
+        <img src="css/img/man-gift.svg" alt="Contact Us Image" />
+        <ul>
+          <li class="expand-nav-a"><a href="#">Christmas Lights</a></li>
+          <li class="expand-nav-a">
+            <a href="#">Christmas Inflatables</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">Halloween Decorations</a>
+          </li>
+          <li class="expand-nav-a"><a href="#">Christmas Wreath</a></li>
+        </ul>
+      </div>
+
+      <div id="woman" class="expanded-nav hidden">
+        <img src="css/img/women gift.svg" alt="women get gift" />
+        <ul>
+          <li class="expand-nav-a"><a href="#">Christmas Lights</a></li>
+          <li class="expand-nav-a">
+            <a href="#">Christmas Inflatables</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">Halloween Decorations</a>
+          </li>
+          <li class="expand-nav-a"><a href="#">Christmas Wreath</a></li>
+        </ul>
+      </div>
+
+      <div id="blog" class="expanded-nav hidden">
+        <img src="css/img/blog.svg" alt="About Us Image" />
+        <ul>
+          <li class="expand-nav-a">
+            <a href="#">A Gift for a New Office?</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">gifts ideas for christmas</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">gifts ideas for a birthday</a>
+          </li>
+          <li class="expand-nav-a"><a href="#">drone as a gift?</a></li>
+          <li class="expand-nav-a">
+            <a href="#">holiday-gifts-givin</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">why soap basket are a winning gifts?</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">design clock for the wall</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">gadgets for toilet</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">gadgets for computer</a>
+          </li>
+          <li class="expand-nav-a">
+            <a href="#">gadgets for phone</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="img-hero" >
+      <img src="css/img/sante.jpg" alt="About Us Image" />
+    </div>
+    <section class="intro-section">
+      <h1><strong>Welcome to Santa's Gifts & Gadgets!</strong></h1>
+      <p><strong>🎅 Unwrap Joy & Convenience This Season! 🎅</strong></p>
+      <p><strong>Discover enchanting gifts and innovative gadgets that delight and amaze!<br> </strong></p>
+  </section>
+  
+    </section>
+    <section class="main-page">
+      <div class="container">
+      <h1>Shop solutions</h1>
+    </div>
+        <div class="categories grid--4-cols">
+        
+          <div class="category shop">
+            <a href="#" target="_blank">
+              <img src="css/img/gadgets-main.svg" alt="gadgets">
+
+              <div class="hover">
+                <h2>gadgets</h2>
+              <p class="shop-now">  Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p>
+            </div>
+            </a>
+
+          </div>
+          
+        <div class="category shop">
+          <a href="#" target="_blank">
+          <img src="css/img/kitchen gadgets main.svg" alt="kitchen gadgets">
+          <div class="hover">
+
+          <h2>kitchen gadgets</h2>
+          <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p></div>
+        </a>
+        </div>
+
+      <div class="category shop">
+        <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+        <img src="css/img/outdoor games.svg" alt="outdoor games">
+        <div class="hover">
+
+        <h2>outdoor games</h2>
+        <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p></div>
+
+      </a>
+      </div>
+      <div class="category shop">
+        <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+        <img src="css/img/indoor-games.svg " alt="indoor-games">
+        <div class="hover">
+
+        <h2>indoor-games</h2>
+        <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p> </div>
+      </a> 
+      </div>
+      
+    <div class="category shop">
+      <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+      <img src="css/img/christmas-main.svg" alt="christmas gifts">
+      <div class="hover">
+
+      <h2>christmas gifts</h2>
+      <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p></div>
+    </a> 
+      </div>
+
+  <div class="category shop">
+    <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+    <img src="css/img/black friday sale.svg" alt="black friday sale">
+    <div class="hover">
+
+    <h2>black friday sale</h2>
+    <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p> </div>
+  </a>  
+   </div>
+
+  <div class="category shop">
+    <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+    <img src="css/img/hallowin gifts.svg" alt="hallowin gifts">
+    <div class="hover">
+    <h2>hallowin gifts</h2>
+    <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p> </div>
+  </a>  
+  </div>
+
+<div class="category shop">
+  <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+  <img src="css/img/happy-birthday.svg" alt="gifts for birthday">
+  <div class="hover">
+
+  <h2>gifts for birthday</h2>
+  <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p> </div>
+</a> 
+ </div>
+
+<div class="category shop">
+  <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+  <img src="css/img/new office gifts.svg" alt="new office gifts">
+  <div class="hover">
+
+  <h2>new office gifts</h2>
+  <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p> </div>
+</a> 
+</div>
+
+<div class="category shop">
+  <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+  <img src="css/img/wedding gifts.svg" alt="wedding gifts">
+  <div class="hover">
+
+  <h2>wedding gifts</h2>
+  <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p> </div>
+</a> 
+</div>
+
+<div class="category shop">
+  <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+  <img src="css/img/uniqe gifts.svg" alt="uniqe gifts">
+  <div class="hover">
+
+  <h2>uniqe gifts</h2>
+  <p class="shop-now">Shop Now <ion-icon name="chevron-forward-outline"></ion-icon></p></div>
+</a> 
+</div>
+
+<div class="category shop">
+  <a href="AMAZON_AFFILIATE_LINK_CATEGORY_1" target="_blank">
+  <img src="css/img/sale.svg" alt="sales">
+ <div class="hover">
+  <h2> sale</h2>
+  <p class="shop-now">Shop Now </p><ion-icon name="chevron-forward-outline"></ion-icon> </div>
+</a> 
+</div>
+</div>
+</section>
+  
+<section class="best-sellers">
+  <h2>Best Sellers</h2>
+
+        <div class="carousel">
+          <button id="prevBtn">&lt;</button>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B07T8KL6C6&asins=B07T8KL6C6&linkId=0317989d9ab379d998de9c14b23487ad&show_border=true&link_opens_in_new_window=true"></iframe>
+                     </div>
+            <div class="carousel-item">
+                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B01MZ14LJV&asins=B01MZ14LJV&linkId=0ae27d32aed03b7a68177ef891666091&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B08RCYCKZX&asins=B08RCYCKZX&linkId=c60a11503c66420b5e2eb650e3f6b5d1&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B000X9EPT0&asins=B000X9EPT0&linkId=a1623fd42195ddb1881a1eda8aa825f1&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px; margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B07RN6CG6X&asins=B07RN6CG6X&linkId=a4fca585583f21b8b6dba14809a98db6&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px; margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B089NXFYS8&asins=B089NXFYS8&linkId=c37e116069833510c074e8c120840fe7&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B00WHYWC08&asins=B00WHYWC08&linkId=a243e33164e674654d885f8929166c2c&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B07WBXRBMN&asins=B07WBXRBMN&linkId=366523f26766c04bb72ad1da7172042a&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B07WYX1D4H&asins=B07WYX1D4H&linkId=4f57f6da9f29d7da390d78bc53792c2e&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B07NYN44KF&asins=B07NYN44KF&linkId=7beb89289d3df6709f60cfb59a096180&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B01261VEOG&asins=B01261VEOG&linkId=0e00a55b943d492998ec256b3cb0c902&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px; margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B08MLB2B4H&asins=B08MLB2B4H&linkId=021aeb2cf98391e7609d15bf6b642311&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px; margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B07Z82895W&asins=B07Z82895W&linkId=305be866a43cf653a990b2b459faaefc&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+            
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px; margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B07PWV84GP&asins=B07PWV84GP&linkId=5eafe5953b74acc570d604770bc826dd&show_border=true&link_opens_in_new_window=true"></iframe>
+                          </div>
+                          <div class="carousel-item">
+                            <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B01J7YVZ6W&asins=B01J7YVZ6W&linkId=83eab8e4a294e6700132b6b2c149b125&show_border=true&link_opens_in_new_window=true"></iframe>
+                        </div>
+                        <div class="carousel-item">
+                          <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;margin-top: -3em;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=security0bbf-20&language=en_US&marketplace=amazon&region=US&placement=B01J7YVZ6W&asins=B01J7YVZ6W&linkId=83eab8e4a294e6700132b6b2c149b125&show_border=true&link_opens_in_new_window=true"></iframe>
+                      </div>
+                                
+            <!-- Add more carousel items as needed -->
+          </div>
+          <button id="nextBtn">&gt;</button>
+        </div>
+    
+</section>
+<script defer src="main.js"></script>
+<script defer src="script.js"></script>
+
+
+
+  <section class="santas-gifts-section ">
+    <a href="css/img/1.jpg" class="background-link ">
+    <div class="santas-gift-section ">
+    <div class="content">
+      <a href="#" class="cta-link">for Christmas Decorations click here</a>
+      <!-- <button class="cta-button">Explore Gifts for christmas</button> -->
+    </div>
+  </div>
+</a>
+
+  </section>
+
+  <section class="unique-gifts-section">
+    <h2>Shop by Category</h2>
+    <a href="your-all-categories-link" class="see-all-link">See All</a>
+    <div class="categories-gifts-section">
+      <div class="category-gifts-section">
+        <a href="your-link-for-him">
+          <img src="css/img/gift for him.svg" alt="Gifts for Him">
+          <p>Gifts for Him</p>
+        </a>
+      </div>
+      <div class="category-gifts-section">
+        <a href="your-link-for-her">
+          <img src="css/img/gift for her.svg" alt="Gifts for Her">
+          <p>Gifts for Her</p>
+        </a>
+      </div>
+      <div class="category-gifts-section">
+        <a href="your-link-for-children">
+          <img src="css/img/gifts for children.svg" alt="Gifts for Children">
+          <p>Gifts for Children</p>
+        </a>
+      </div>
+      <div class="category-gifts-section">
+        <a href="your-link-for-home">
+          <img src="css/img/gifts for home.svg" alt="Gifts for Home">
+          <p>Gifts for Home</p>
+        </a>
+      </div>
+      <div class="category-gifts-section">
+        <a href="your-link-for-unexpected">
+          <img src="css/img/uniqe gifts.svg" alt="Unexpected Gifts">
+          <p>Unexpected Gifts</p>
+        </a>
+      </div>
+      <div class="category-gifts-section">
+        <a href="your-link-for-all-gifts">
+          <img src="css/img/all gifts.svg" alt="All Gifts">
+          <p>All Gifts</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="site-footer">
+     
+      <div class="footer-section" style="display: flex; justify-content: space-around; padding: 20px; background-color: #333; color: white;">
+        <!-- First Section -->
+        <div class="footer-section-1">
+          <h3>Why Shop With Us</h3>
+          <p><i class="fas fa-shipping-fast"></i> Fast Shipping</p>
+          <p><i class="fas fa-undo"></i> Easy Returns</p>
+          <p><i class="fas fa-shield-alt"></i> Secure Shopping</p>
+        </div>
+  
+        <!-- Second Section -->
+        <div class="footer-section-2">
+          <h3>Quick Links</h3>
+          <p><a href="#">Privacy Policy</a></p>
+          <p><a href="#">Terms of Service</a></p>
+          <p><a href="#">Contact Us</a></p>
+        </div>
+  
+        <!-- Third Section -->
+        <div class="footer-section-3">
+          <h3>Follow Us</h3>
+          <p>
+            <a href="#" style="margin-right: 10px;"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#" style="margin-right: 10px;"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          </p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </div> 
+    </footer>
+    <!-- <div class="icon-section">
+      <div class="icon-box">
+        <i class="fas fa-gift fa-3x"></i>
+        <h4>Quality Products</h4>
+        <p>We offer products that meet the highest standards of quality and durability.</p>
+      </div>
+      <div class="icon-box">
+        <i class="fas fa-headset fa-3x"></i>
+        <h4>Customer Service</h4>
+        <p>Our customer service team is here to assist you with any inquiries or issues.</p>
+      </div>
+      <div class="icon-box">
+        <i class="fas fa-shipping-fast fa-3x"></i>
+        <h4>Fast Delivery</h4>
+        <p>We ensure quick and reliable delivery services to enhance your shopping experience.</p>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <p>Email: example@example.com</p>
+      <p>Phone: +1 123 456 7890</p>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Follow Us</h4>
+      <a href="your-facebook-link">Facebook</a>
+      <a href="your-twitter-link">Twitter</a>
+      <a href="your-instagram-link">Instagram</a>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <a href="your-about-us-link">About Us</a>
+      <a href="your-privacy-policy-link">Privacy Policy</a>
+      <a href="your-terms-and-conditions-link">Terms & Conditions</a>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Newsletter</h4>
+      <form action="your-newsletter-subscription-link" method="post">
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    
+    -->
+  
+
+  </body>
+</html>
+
+
+
+
+
