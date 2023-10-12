@@ -1,0 +1,19 @@
+.post-content {
+  text-align: center;
+  padding: 3rem;
+}
+.post-h1 {
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.p-post {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-style: italic;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.post-h2 {
+  text-decoration: underline;
+}

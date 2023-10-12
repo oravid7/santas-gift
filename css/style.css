@@ -7,19 +7,6 @@ html {
   background-color: #fff;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  color: #191970;
-  text-align: center;
-  padding: 1em 0;
-  width: 100%;
-
-  transition: background-color 0.3s;
-}
-
 /* header:hover {
   background-color: #e0e0e0;
 } */
@@ -28,7 +15,20 @@ header {
 /* HEADER */
 /* *********************** */
 
-.sticky {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #191970;
+  /* text-align: center; */
+  padding: 1em 0;
+  width: 100%;
+
+  transition: background-color 0.3s;
+}
+
+/* .sticky {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -38,7 +38,7 @@ header {
   padding-bottom: 0;
   z-index: 999;
   justify-content: space-between;
-}
+} */
 
 .menu-toggle {
   display: none;
@@ -120,47 +120,30 @@ header {
 /* *********************** */
 
 .hero-section {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  border: #191970 solid 1px;
   margin-top: -2rem;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: #191970 0.2px solid;
 }
 
 .hero-section img {
   width: 70rem;
 }
 
-/* .h1-hero {
-  font-size: 1.5rem;
-  line-height: 1.1;
-  color: #fff;
-  font-weight: 700;
-  margin-bottom: 3.2rem;
-  letter-spacing: 0.5px;
-  line-height: 1.2;
-  text-transform: uppercase;
-} */
-
 .intro-section {
   text-align: center;
   padding: 2rem;
   background-color: #ffff; /* Adjust background color as needed */
   color: #343a40; /* Adjust text color as needed */
-  margin-right: 10rem;
 }
 
 .intro-section h1 {
   font-size: 3.6em;
   margin-bottom: 10px;
-}
-
-.intro-section p {
-  font-size: 2.4em;
   line-height: 3.6em;
-  margin: 10px 0;
-  color: #191970;
 }
 
 /* *********************** */
@@ -240,11 +223,11 @@ header {
   display: flex;
   margin-right: 0;
 }
-
+/* 
 img {
-  width: 100%;
+  width: 16rem;
   height: auto;
-}
+} */
 
 button {
   position: absolute;
@@ -293,16 +276,6 @@ button {
   justify-content: center;
   position: relative;
 }
-
-/* .santas-gift-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-} */
 
 .content {
   position: relative;
@@ -396,6 +369,14 @@ button {
   height: 30rem;
 }
 
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
 .icon-section {
   display: flex;
   justify-content: space-around;
@@ -427,6 +408,15 @@ button {
 .footer-section {
   margin-bottom: 20px;
 }
+
+.footer-section-2 h3 {
+  color: #fff;
+}
+
+.footer-section-3 h3 {
+  color: #fff;
+}
+
 .footer-section-1 h3 {
   font-size: 2.5rem;
   color: #fff;

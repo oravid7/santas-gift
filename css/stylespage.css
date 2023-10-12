@@ -1,0 +1,69 @@
+.best-seller {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 0;
+  gap: 10.7rem;
+  max-width: 175rem;
+  color: #0b30fd;
+}
+.best-seller-information {
+  border: 2px solid #0e0e0f;
+  background-color: #fff;
+  width: 12.5rem;
+  height: 21rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  transition: all 0.4s;
+  max-width: 175rem;
+}
+.best-seller-information:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.5);
+  background-color: #e7eaff;
+  color: #2345fd;
+}
+.best-seller-gifts {
+  height: 20rem;
+  width: 27.6rem;
+}
+
+.man-gifts {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.man-gifts h2 {
+  align-items: center;
+  text-decoration: underline;
+  margin-top: 3.6rem;
+  margin-bottom: 3.4rem;
+}
+
+.man-gifts p {
+  margin-top: 4.6rem;
+  font-size: 1.2em;
+  color: #190970;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+  padding: 2rem;
+  width: 100%;
+  justify-items: center;
+}
+.grid-headline h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #190970;
+  text-decoration: underline;
+}
+.cover-image {
+  margin-bottom: 1rem;
+  width: 25rem;
+}
